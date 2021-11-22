@@ -50,7 +50,6 @@ const applyLexer = (sms) => {
                 }
             )
         })
-        console.log(responseObj)
         return {
             error: null,
             data: responseObj
